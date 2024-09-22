@@ -29,3 +29,10 @@
   background-color: var(--bs-my-gray);
   border-color: var(--bs-my-gray);
 }
+
+.copyright{
+  position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}

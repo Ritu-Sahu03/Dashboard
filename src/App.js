@@ -32,6 +32,9 @@ const App = () => {
       </div>
 
       <UserList/>
+      <div className="copyright">
+        <p style={{color:"#afacac"}}>Author: Ritu Sahu</p>
+      </div>
     </div>
   );
 };

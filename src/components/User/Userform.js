@@ -237,7 +237,7 @@ function Userform({ setIsOpen }) {
         {/* Card Limit */}
         <div className="row mt-3">
           <div className="col-md-6">
-            {inputField("cardlimit", "Card Load Limit",{ pattern: {
+            {inputField("cardlimit", "Limit 1",{ pattern: {
                     value: /^[0-9]+$/,
                     message: "Invalid Card Load Limit",
                   },})}
@@ -245,7 +245,7 @@ function Userform({ setIsOpen }) {
 
           {/* Payment Limit */}
           <div className="col-md-6">
-            {inputField("paymentlimit", "Payment Limit",{ pattern: {
+            {inputField("paymentlimit", "Limit 2",{ pattern: {
                     value: /^[0-9]+$/,
                     message: "Invalid Payment Limit",
                   },})}
