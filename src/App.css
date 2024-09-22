@@ -1,0 +1,31 @@
+:root {
+  --bs-my-primary: #22b470;
+  --bs-my-secondary: #090d28;
+  --bs-my-gray: #f5f5f5;
+}
+
+/* Overriding Bootstrap button colors */
+.btn-primary {
+  background-color: var(--bs-my-primary);
+  border-color: var(--bs-my-primary);
+}
+
+.btn-primary:hover {
+  background-color: #1a9a5e;
+  border-color: #1a9a5e;
+}
+
+.btn-secondary {
+  background-color: var(--bs-my-secondary);
+  border-color: var(--bs-my-secondary);
+}
+
+.btn-secondary:hover {
+  background-color: #080c24;
+  border-color: #080c24;
+}
+
+.btn-gray {
+  background-color: var(--bs-my-gray);
+  border-color: var(--bs-my-gray);
+}
